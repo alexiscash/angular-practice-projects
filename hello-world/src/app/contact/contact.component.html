@@ -43,7 +43,9 @@
             </div>
             <div class="app-form-group buttons">
               <button class="app-form-button">CANCEL</button>
-              <button class="app-form-button">SEND</button>
+              <button [disabled]="isUnchanged" class="app-form-button">
+                SEND
+              </button>
             </div>
           </div>
         </div>
