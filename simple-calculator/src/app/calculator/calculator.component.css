@@ -1,0 +1,7 @@
+.calc {
+  display: grid;
+}
+
+.number-button {
+  width: 50px;
+}
