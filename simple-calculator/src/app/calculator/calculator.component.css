@@ -1,7 +1,28 @@
-.calc {
-  display: grid;
+.card {
+  box-shadow: 0 4px 8px green;
+  border-radius: 10px;
 }
 
-.number-button {
-  width: 50px;
+.card-body {
+  padding: 20px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 15px;
+  border: 1px solid white;
+}
+
+.btn-group .btn {
+  border-radius: 0;
+}
+
+.form-control {
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-bottom: 20px;
 }
